@@ -42,5 +42,13 @@ const canada = new Nation('38 millions', '9.98 million square km', '1.
 const usa = new Nation('328 millions', '9.15 million square km', '20.8 trillion' );
 const calgary = new City ('4 millions', '0.66 million square km', '105 billion', '11 percent' );
 const highwood = new Neighborhood ('50,000', '0.02 million square km', '1 billion', '9 percent', '150,000 per year');
+console.log(canada);
+console.log(usa);
+console.log(calgary);
+console.log(highwood);
+console.log(canada.geology());
+console.log(canada.economy());
+console.log(calgary.economy(), calgary.unemRate());
+console.log(highwood.getincome());
 
 
